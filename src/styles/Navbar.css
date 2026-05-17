@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
+
+.container-nav {
+  background-color: white;
+  height: 20vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Rakkas", cursive;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  margin: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.nav-link {
+  margin-left: 40px;
+  list-style: none;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.link {
+  color: plum;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+.link:hover {
+  color: cadetblue;
+  opacity: 0.6;
+}
+
+/* Media Queries */
+@media screen and (max-width: 320px) {
+  .container-nav {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .logo {
+    position: relative;
+    right: 80px;
+  }
+
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 10px;
+    right: 50px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    position: relative;
+    left: 150px;
+  }
+}

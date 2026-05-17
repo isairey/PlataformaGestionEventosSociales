@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Rakkas&display=swap");
+
+.info p {
+  margin-top: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-card {
+  height: 650px;
+  width: 800px;
+  margin: auto;
+}
+
+.text-info {
+  text-align: center;
+  width: 40vw;
+  font-family: "Rakkas", cursive;
+}
+
+.item-card h4 {
+  font-family: "Rakkas", cursive;
+  letter-spacing: 2px;
+}
+
+.list-items {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 4fr);
+  gap: 20px;
+  font-size: 18px;
+  font-family: "Rakkas", cursive;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.client-feedback {
+  width: 90vh;
+  font-family: "Itim", cursive;
+  font-family: "Rakkas", cursive;
+  margin-top: 40px;
+}
+
+.entries {
+  margin: 20px;
+}
+
+.entries p {
+  margin-top: 20px;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 768px) {
+  .info {
+    flex-direction: column;
+  }
+  .text-info,
+  .item-card,
+  .client-feedback {
+    width: 100vw;
+  }
+  .info {
+    margin-top: 150px;
+  }
+}

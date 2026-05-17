@@ -1,0 +1,39 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 25px;
+}
+
+.gallery-container img {
+  object-fit: cover;
+  height: 325px;
+  width: 400px;
+}
+
+.gallery-title {
+  text-align: center;
+  color: plum;
+  margin-bottom: 20px;
+}
+
+.gallery-headers {
+  text-align: center;
+  font-size: 30px;
+  color: plum;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-title {
+    margin-top: 130px;
+  }
+
+  .gallery-container img {
+    width: 320px;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

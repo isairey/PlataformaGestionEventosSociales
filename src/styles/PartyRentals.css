@@ -1,0 +1,45 @@
+.list-items-container {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.list-items-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 50px;
+  row-gap: 20px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: plum;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.list-items img {
+  height: 300px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .item-card-container h2 {
+    padding-top: 120px;
+  }
+
+  .list-items-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}

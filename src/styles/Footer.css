@@ -1,0 +1,19 @@
+.Ig-logo,
+.Fb-logo {
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.Fb-logo {
+  position: relative;
+  bottom: 5px;
+  height: 60px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-top: 1px solid cadetblue;
+}

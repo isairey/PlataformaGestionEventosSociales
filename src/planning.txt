@@ -1,0 +1,28 @@
+Homepage --> 
+
+Navbar --> 
+1. Name and logo image 
+2. Links to pages
+
+Hero --> 
+Displays cards of products/services for rental or usuage. 
+Each card will have an image a price and a description.
+
+Footer --> 
+Links to social media
+Links to pages 
+Logo image 
+
+Website has to be mobile friendly so make changes to fit it.
+
+
+-> within rentals we should have pages to specify 
+what kind of party and/or what kind of resource they could rent 
+Here's an example of what I mean: https://www.primeluxevents.com/flower-walls
+You can start researching what pages we should include
+
+
+We also need to have a "cart" feature where people need to 
+save what they like, but we can do that later after we populate the options
+also we'll need to connect everything to email-js so you can watch a 
+quick video on that and read the documentation
