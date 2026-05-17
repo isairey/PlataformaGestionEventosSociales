@@ -189,7 +189,7 @@ Este módulo funciona como administrador principal del sistema.
 # 📂 Estructura del proyecto
 
 ```bash
-event-planner-react-app/
+PlataformaGestionEventosSociales/
 │
 ├── public/                   # Recursos públicos
 ├── src/
@@ -225,7 +225,7 @@ event-planner-react-app/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isairey/event-planner-react-app.git
+git clone https://github.com/isairey/PlataformaGestionEventosSociales.git
 ```
 
 ---
@@ -233,7 +233,7 @@ git clone https://github.com/isairey/event-planner-react-app.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd event-planner-react-app
+cd PlataformaGestionEventosSociales
 ```
 
 ---
