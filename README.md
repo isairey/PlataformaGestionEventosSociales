@@ -349,33 +349,7 @@ Permite personalizar completamente la configuración de CRA, Webpack y Babel.
 
 ---
 
-# 📸 Vista previa
 
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 🎉 Página principal
-![Home](https://dummyimage.com/1200x600/E91E63/ffffff&text=Event+Planner+Home)
-
-### 📅 Gestión de eventos
-![Events](https://dummyimage.com/1200x600/C2185B/ffffff&text=Events+Management)
-
-### 👥 Gestión de invitados
-![Guests](https://dummyimage.com/1200x600/AD1457/ffffff&text=Guests+Management)
-
-### 🛒 Servicios para eventos
-![Services](https://dummyimage.com/1200x600/880E4F/ffffff&text=Event+Services)
-
-### 📊 Dashboard administrativo
-![Dashboard](https://dummyimage.com/1200x600/6A1B9A/ffffff&text=Admin+Dashboard)
-
-### 📱 Diseño responsive
-![Responsive](https://dummyimage.com/1200x600/8E24AA/ffffff&text=Responsive+Design)
-
-</div>
-
----
 
 # 🧠 Objetivos del proyecto
 
